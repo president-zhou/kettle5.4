@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="PI"
+   iconfile="PI.png"
+   description="PI operation"
+   tooltip="这是一个pi数据操作步骤"
+   category="Transform"
+   classname="com.zcj.kettle.trans.pi.PIMeta">
+   <libraries>
+    <library name="PI.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Transform</category>
+     <category locale="nl_NL">Transform</category>
+     <category locale="fr_FR">Transformation</category>
+     <category locale="zh_CN">转换</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">PI operation</description>
+     <description locale="zh_CN">PI 操作</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This is an example for a plugin test step</tooltip>
+     <tooltip locale="en_US">这是一个pi数据操作步骤</tooltip>
+   </localized_tooltip>
+   
+</plugin>

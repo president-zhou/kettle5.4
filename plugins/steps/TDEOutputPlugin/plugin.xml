@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="TDEOutputPlugin"
+   iconfile="tde.png"
+   description="Tableau数据提取输出"
+   tooltip="这个步骤可以生成tableau数据提取文件"
+   category="Output"
+   classname="org.openbi.kettle.plugins.tableauDataExtract.TDEOutputMeta">
+   <libraries>
+   <library name="jna.jar"/>
+   <library name="dataextract.jar"/>
+    <library name="TDEOutputPlugin.jar"/>
+   </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Output</category>
+	 <category locale="zh_CN">输出</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Tableau Data Extract Output</description>
+	 <description locale="zh_CN">tde输出</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This step outputs to a Tableau Data Extract File</tooltip>
+	 <tooltip locale="zh_CN">这个步骤可以生成tableau数据提取文件</tooltip>
+   </localized_tooltip>
+   
+</plugin>

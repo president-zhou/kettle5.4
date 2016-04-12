@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="PIDB"
+   type="PIODBC"
+   typeDescription="PI"
+   classname="org.pentaho.di.databases.pi.PiDatabaseMeta">
+   <libraries>
+    <library name="pi-db.jar"/>
+    </libraries>
+   
+</plugin>
